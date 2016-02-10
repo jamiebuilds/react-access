@@ -1,0 +1,21 @@
+{
+  "name": "react-access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "browserify example/script.js -o example/bundle.js -t babelify --debug"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-cf": "^1.2.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "react-dom": "^0.14.2"
+  },
+  "dependencies": {
+    "react": "^0.14.2"
+  }
+}
